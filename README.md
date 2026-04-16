@@ -4,6 +4,16 @@
 This project presents an end-to-end Power BI dashboard developed to analyze housing market performance using Google BigQuery, Power Query, and DAX. The dashboard provides insights into regional sales trends, pricing patterns, and key factors influencing property values through interactive visualizations.
 
 The objective of this project is to demonstrate a real-world analytics workflow involving data extraction, cleaning, transformation, modeling, and visualization to support data-driven decision-making.
+## Dashboard Preview
+
+### House Market Overview
+![House Market Overview](Images/overview.png)
+
+### Sales Performance
+![Sales Performance](Images/sales-performance.png)
+
+### Key Influencers
+![Key Influencers](Images/key-influencers.png)
 
 ---
 
