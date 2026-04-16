@@ -123,5 +123,23 @@ Standardizes pricing based on property size.
 • Rolling 12-month trends help identify market direction  
 
 ---
+## Analytical Rigor
 
-## Repository Structure
+This project demonstrates structured analytical thinking through systematic data preparation, metric design, and interpretation of housing market trends. The analysis extends beyond basic visualization by applying statistical aggregation, time intelligence calculations, and dimensional comparisons to extract meaningful business insights.
+
+### Data Preparation and Validation
+Data was cleaned and transformed using Power Query to ensure consistency, accuracy, and usability for analysis. Date fields were standardized to support time-series evaluation, and derived variables such as property age and price per square meter were created to enhance interpretability. Data types were validated to ensure compatibility with DAX time intelligence functions.
+
+### Metric Design using DAX
+Key performance indicators were developed using advanced DAX functions including TOTALYTD, DATESINPERIOD, MEDIANX, CALCULATE, and ALLEXCEPT. These measures allow consistent comparison of sales performance across different time periods and regions. Time-based calculations such as rolling 12-month sales and year-over-year growth were used to capture trend dynamics rather than isolated point-in-time values.
+
+### Dimensional Analysis
+The dashboard evaluates housing performance across multiple analytical dimensions, including region, property type, property size, and property age. Aggregation logic ensures fair comparison between groups, while median-based metrics reduce the effect of outliers commonly observed in real estate datasets.
+
+### Trend and Relationship Analysis
+Scatter plots and Key Influencers visuals were used to explore relationships between offer price, purchase price, square meters, and property age. These techniques support identification of variables that influence housing price variation and help uncover patterns within the data.
+
+### Business-Oriented Interpretation
+The analytical approach prioritizes decision-support insights rather than descriptive summaries. Regional comparisons highlight differences in housing demand and pricing behavior, while time intelligence metrics provide visibility into market growth patterns. Derived features such as price per square meter improve comparability across properties of different sizes.
+
+Overall, the project demonstrates the application of structured metric design, dimensional analysis, and time-based modeling to generate actionable insights from housing market data.
